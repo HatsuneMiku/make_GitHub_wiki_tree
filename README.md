@@ -9,7 +9,13 @@ Usage
 ```bash
 git clone https://github.com/YOUR_ACCOUNT/YOUR_REPOSITORY.wiki.git YOUR_REPOSITORY.wiki
 cd YOUR_REPOSITORY.wiki
-./mktree.py
+echo YOUR_ACCOUNT > mktree.cf
+echo YOUR_REPOSITORY >> mktree.cf
+mkdir 2014
+mkdir 2014/201407
+echo test > 2014/201407/20140711_0001.md
+git add 2014/201407/20140711_0001.md
+python mktree.py
 git add Tree.md
 git add _Sidebar.md
 git commit -m 'make tree'
