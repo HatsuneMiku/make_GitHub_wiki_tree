@@ -3,6 +3,15 @@ make_GitHub_wiki_tree
 
 make GitHub wiki tree
 
+Package Documentation
+
+ - GitHub wiki tree https://github.com/HatsuneMiku/make_GitHub_wiki_tree/wiki
+
+ - GitHub repository  https://github.com/HatsuneMiku/make_GitHub_wiki_tree
+
+ - PyPI https://pypi.python.org/pypi/make_GitHub_wiki_tree
+
+
 Usage
 -----
 
