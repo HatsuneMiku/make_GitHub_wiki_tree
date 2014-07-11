@@ -4,7 +4,7 @@
 This is a test module for mkdoc.py
 '''
 
-__version__ = '0.0.0'
+__version__ = '0.0.2'
 
 def init():
   '''This is a function'''
