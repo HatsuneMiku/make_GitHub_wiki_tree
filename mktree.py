@@ -32,7 +32,7 @@ def walk(p, depth, uribase, ofp):
 def mktree(act, rep, ofp):
   uribase = '/%s/%s/wiki/' % (act, rep)
   ofp.write('Tree\n====\n')
-  ofp.write('created automatically\n'
+  ofp.write('created automatically\n')
   ofp.write('\n')
   ofp.write('Contents\n--------\n')
   walk(BASE_DIR, 1, uribase, ofp)
