@@ -1,4 +1,5 @@
 include README.md
 include requirements.txt
+include mkdoc.py
 include mktree.py
 include make_GitHub_wiki_tree/conf/*
