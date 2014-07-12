@@ -1,3 +1,5 @@
+include MANIFEST.in
+include .gitignore
 include README.md
 include requirements.txt
 include mkdoc.py
